@@ -1,0 +1,15 @@
+#Assignment 6.1--Johnathan Harris
+#Write a program that converts miles driven into kilometers using a function and then display both
+
+#user inputes miles 
+miles = float(input("Enter number of miles driven: "))
+
+#function for calculating miles into kilometers
+def distance(miles):
+    kilometers = miles * 1.60
+    return kilometers
+kilometers = distance(miles)
+
+#display for both kilometers and miles
+print(f"\nDisntance driven in kilometers: {kilometers}")
+print(f"\nDisntance driven in miles: {miles}")
