@@ -1,0 +1,23 @@
+#Assignment_10.1--Johnathan Harris
+# create a program that performs file processing activities.
+
+import os
+
+def main():
+ #Create the directory and file and merge them   
+    if os.mkdir(directory):
+        writeFile = open(os.mkdir.join(directory, filename),'c')
+        writeFile.write(name+','+address+','+phone_number)
+        writeFile.close()
+    else:
+        print("Sorry that directory already exists.")
+
+#User inputs to choose location and what information to store
+directory = input("Enter a directiry to save your file to: ")
+filename = input("Enter the file name: ")
+name = input("enter your name: ")
+address = input("Enter your address: ")
+phone_number = input("Enter your phone number: ")
+
+#Display for user enters
+print(f"\n{name}, {address}, {phone_number}")
